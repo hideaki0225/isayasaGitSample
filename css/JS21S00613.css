@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+.container_2{
+    margin-left: 480px;
+}
+
+header {
+    margin-top: 30px;
+    color: #43A047;
+}
+
+hr {
+    border-width: 3px;
+    border-color: #43A047;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.label-danger {
+    border: red solid 1px;
+    background-color: red;
+    color: #FFF;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 0.8em;
+}
+
+.form-control{
+    margin-top: 4px;
+}
+
+.align-light {
+    text-align: right;
+}
+
+.form-group {
+    margin-bottom: 35px;
+}
+
+footer p {
+    text-align: center;
+}
+
+input:required {
+    background: #ffcdd2;
+}
+
+input[type="email"]:invalid {
+    background: #ffcdd2;
+}
+
+input:valid {
+    background: transparent;
+}
+
+input:focus {
+    background: #DCEDC8;
+}
+
+input{
+    font-size: 1.33em;
+    border-radius: 7px 7px 7px 7px;
+}
+
+select{
+    font-size: 1.2em;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.atend{
+    color: red;
+}
+
+/*
+*ボタン
+*/
+.btn-square-little-rich {
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: #03A9F4;
+    /*色*/
+    border: solid 1px #0f9ada;
+    /*線色*/
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-square-little-rich:active {
+    /*押したとき*/
+    border: solid 1px #03A9F4;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+button{
+    margin-left: 80px;
+}
